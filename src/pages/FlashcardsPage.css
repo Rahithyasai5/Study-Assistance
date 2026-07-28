@@ -1,0 +1,233 @@
+/* ===========================
+   PASTEL PINK FLASHCARDS
+=========================== */
+
+.flash-page{
+    min-height:100vh;
+    background:linear-gradient(to bottom,#FFF0F6,#FFE4EC,#FFF8FB);
+    padding:40px 20px;
+}
+
+.flash-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.flash-title{
+    text-align:center;
+    font-size:48px;
+    color:#E75480;
+    margin-bottom:10px;
+}
+
+.flash-subtitle{
+    text-align:center;
+    font-size:18px;
+    color:#B03060;
+    margin-bottom:25px;
+}
+
+/* Progress Bar */
+
+.progress-bar{
+    width:100%;
+    height:14px;
+    background:#FFD6E7;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:35px;
+}
+
+.progress-fill{
+    height:100%;
+    background:linear-gradient(90deg,#FF69B4,#EC4899);
+    transition:.4s ease;
+}
+
+/* Flashcard */
+
+.flash-card{
+    perspective:1200px;
+    cursor:pointer;
+}
+
+.flash-card-inner{
+    position:relative;
+    width:100%;
+    min-height:360px;
+    transition:transform .8s;
+    transform-style:preserve-3d;
+}
+
+.flash-card.flipped .flash-card-inner{
+    transform:rotateY(180deg);
+}
+
+.flash-front,
+.flash-back{
+    position:absolute;
+    width:100%;
+    height:100%;
+
+    backface-visibility:hidden;
+
+    border-radius:25px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:45px;
+
+    box-shadow:0 20px 45px rgba(236,72,153,.18);
+}
+
+/* Question Side */
+
+.flash-front{
+    background:linear-gradient(135deg,#FFE4EC,#FFD6E7);
+}
+
+.flash-front h2{
+    color:#C2185B;
+    margin-bottom:25px;
+    font-size:34px;
+}
+
+.flash-front p{
+    font-size:24px;
+    color:#6B214F;
+    text-align:center;
+    line-height:1.6;
+}
+
+.flash-front small{
+    margin-top:25px;
+    color:#9D174D;
+}
+
+/* Answer Side */
+
+.flash-back{
+    background:linear-gradient(135deg,#FCE7F3,#FBCFE8);
+    transform:rotateY(180deg);
+}
+
+.flash-back h2{
+    color:#C2185B;
+    margin-bottom:25px;
+    font-size:34px;
+}
+
+.flash-back p{
+    font-size:24px;
+    color:#6B214F;
+    text-align:center;
+    line-height:1.6;
+}
+
+.flash-back small{
+    margin-top:25px;
+    color:#9D174D;
+}
+
+/* Buttons */
+
+.flash-buttons{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    margin-top:35px;
+}
+
+.flash-buttons button,
+.home-btn{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+
+    background:linear-gradient(135deg,#FF85B3,#EC4899);
+
+    color:white;
+
+    font-size:17px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.flash-buttons button:hover,
+.home-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(236,72,153,.3);
+}
+
+.flash-buttons button:disabled{
+    background:#F8BBD0;
+    cursor:not-allowed;
+    box-shadow:none;
+}
+
+.home-btn{
+    width:100%;
+    margin-top:25px;
+}
+
+/* Dark Mode */
+
+body.dark .flash-page{
+    background:#1E1B2E;
+}
+
+body.dark .flash-front{
+    background:#4A1D35;
+}
+
+body.dark .flash-back{
+    background:#612940;
+}
+
+body.dark .flash-front p,
+body.dark .flash-back p{
+    color:white;
+}
+
+body.dark .flash-title{
+    color:#F9A8D4;
+}
+
+body.dark .flash-subtitle{
+    color:#FBCFE8;
+}
+
+body.dark .progress-bar{
+    background:#7C2D52;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.flash-title{
+    font-size:36px;
+}
+
+.flash-front h2,
+.flash-back h2{
+    font-size:28px;
+}
+
+.flash-front p,
+.flash-back p{
+    font-size:20px;
+}
+
+.flash-buttons{
+    flex-direction:column;
+}
+
+}

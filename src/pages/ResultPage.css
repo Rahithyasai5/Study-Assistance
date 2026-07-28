@@ -1,0 +1,65 @@
+.retest-btn{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#FDBA74,#FB923C);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.retest-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(251,146,60,.3);
+
+}
+
+.home-btn{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#FED7AA,#FDBA74);
+
+    color:#7C2D12;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.home-btn:hover{
+
+    transform:translateY(-3px);
+
+}
