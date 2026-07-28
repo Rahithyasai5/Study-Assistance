@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import Groq from "groq-sdk";
 
 dotenv.config();
-
+console.log("Groq key loaded:", !!process.env.GROQ_API_KEY);
 const app = express();
 
 app.use(cors());
