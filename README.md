@@ -3,7 +3,6 @@
 ## Overview
 
 AI Study Assistant is a web application that helps students study more effectively using Artificial Intelligence. Users can enter a study topic or paste their notes, and the application generates either flashcards or multiple-choice quizzes using the Groq Large Language Model (LLM).
-
 The application is built using React for the frontend, Node.js and Express for the backend, and the Groq API for AI-generated content.
 
 ---
