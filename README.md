@@ -497,20 +497,7 @@ The backend uses prompt engineering to instruct the model to return valid JSON, 
 
 ---
 
-# Time Spent
 
-| Task | Time |
-|------|------|
-| UI Design | 5 Hours |
-| React Development | 8 Hours |
-| Backend Development | 4 Hours |
-| Groq Integration | 3 Hours |
-| Testing & Debugging | 5 Hours |
-| Responsive Design | 3 Hours |
-
-**Total Time:** Approximately **28 Hours**
-
----
 
 # References
 
