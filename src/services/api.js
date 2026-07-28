@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://study-assistance.onrender.com",
+  baseURL: "https://Study-Assistance.onrender.com",
 });
 
 export const generateStudyContent = async (data) => {
