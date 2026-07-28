@@ -507,7 +507,6 @@ The following resources were used during development:
 - Express.js Documentation – https://expressjs.com/
 - Node.js Documentation – https://nodejs.org/
 - Groq API Documentation – https://console.groq.com/docs
-- MDN Web Docs – https://developer.mozilla.org/
 - ChatGPT (OpenAI) – Used for debugging, React guidance, UI improvements, CSS styling suggestions, README preparation, and implementation assistance.
 
 ---
