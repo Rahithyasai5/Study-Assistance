@@ -1,4 +1,4 @@
-# 📚 AI Study Assistant
+# 📚  Study Assistant
 
 ## Overview
 
