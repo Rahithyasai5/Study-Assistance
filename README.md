@@ -6,6 +6,14 @@ AI Study Assistant is a web application that helps students study more effective
 The application is built using React for the frontend, Node.js and Express for the backend, and the Groq API for AI-generated content.
 
 ---
+## 🚀 Live Demo
+
+**Demo Link:** https://study-assistance-ecru.vercel.app
+
+## 💻 GitHub Repository
+
+https://github.com/Rahithyasai5/Study-Assistance
+---
 
 # Project Workflow
 
