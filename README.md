@@ -8,12 +8,19 @@ The application is built using React for the frontend, Node.js and Express for t
 ---
 ## 🚀 Live Demo
 
-**Demo Link:** https://study-assistance-ecru.vercel.app
+**Deploy Link:** https://study-assistance-ecru.vercel.app
 
 ## 💻 GitHub Repository
 
 https://github.com/Rahithyasai5/Study-Assistance
 ---
+## Demo Link
+
+
+https://github.com/user-attachments/assets/87a0d32c-80cc-49b5-b46d-4779337c3eff
+
+
+
 
 # Project Workflow
 
